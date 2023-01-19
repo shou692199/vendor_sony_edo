@@ -159,6 +159,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/bin/hw/vendor.semc.hardware.display@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.display@2.2-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/hw/vendor.semc.hardware.secd@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.hardware.secd@1.1-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/hw/vendor.semc.system.idd@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.semc.system.idd@1.0-service \
+    vendor/sony/sm8250-common/proprietary/vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.camera.provider@1.0-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.somc.hardware.miscta@1.0-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/iddd:$(TARGET_COPY_OUT_VENDOR)/bin/iddd \
     vendor/sony/sm8250-common/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
@@ -199,6 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/sony/sm8250-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/sony/sm8250-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
+    vendor/sony/sm8250-common/proprietary/vendor/bin/vendor.qti.qspmhal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.qspmhal@1.0-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/vppservice:$(TARGET_COPY_OUT_VENDOR)/bin/vppservice \
     vendor/sony/sm8250-common/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
     vendor/sony/sm8250-common/proprietary/vendor/bin/wvkbd:$(TARGET_COPY_OUT_VENDOR)/bin/wvkbd \
@@ -231,6 +233,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/sony/sm8250-common/proprietary/vendor/etc/acdbdata/workspaceFile_Sony_edo.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/workspaceFile_Sony_edo.qwsp \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/sony/sm8250-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -330,6 +333,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
@@ -340,6 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.qspmhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.qspmhal@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.semc.hardware.charger@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.semc.hardware.charger@1.0-service.rc \
@@ -348,6 +353,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.semc.system.idd@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.semc.system.idd@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
+    vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.somc.hardware.miscta@1.0-service.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/sony/sm8250-common/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
@@ -668,6 +674,91 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzwvcpybuf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b07 \
     vendor/sony/sm8250-common/proprietary/vendor/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.mdt \
     vendor/sony/sm8250-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx334.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx362.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx376.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx386.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx476.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx481.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx519.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx563.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx563.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx576.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx577.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx586.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_6dof.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_eyetrack.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov6211.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov9282.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10_front.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13855.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13880.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov7251.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2l7.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2x5sp.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3m5.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.s5k3p9.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k3p9.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k5e9yu05.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.liteon_imx362.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.liteon_imx362.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.ofilm_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ofilm_imx563.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.pmd_irs2381c.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.pmd_irs2381c.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.semco_imx481.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.semco_imx586.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.semco_s5k3m5.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.sunny_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.sunny_imx519.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.sensormodule.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.truly_imx476.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.liteon_imx362.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.liteon_imx362.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.ofilm_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.ofilm_imx563.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.semco_imx481.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.semco_imx586.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.semco_s5k3m5.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.sunny_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_imx519.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.sunny_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.sunny_s5k5e9yu05.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/com.qti.tuned.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.truly_imx476.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.eisv3.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.addconstant.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.hvx.binning.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.customhwnode.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.depth.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummyrtb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.dummysat.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.eisv3.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.fcv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.gpu.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.memcpy.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.remosaic.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.stich.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.node.swregistration.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aec.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.aecwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.af.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afd.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.afwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.asd.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.haf.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.hafoverride.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlib.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qti.stats.tracker.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.aec.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.af.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.awb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/libdepthmapwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/sony/sm8250-common/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
@@ -677,6 +768,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.qcom.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.somc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so \
@@ -742,6 +834,19 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamerapostproc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcammw_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcammw_util.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfacialfeatures.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgo.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxifestriping.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamximageformatutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxncs.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
@@ -787,11 +892,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmiscta.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpdecoder_proprietary.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmrtpencoder_proprietary.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulawdec.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib/libops.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
@@ -949,6 +1057,140 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib/vendor.somc.hardware.swiqi@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.swiqi@1.0-impl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib/vendor.somc.hardware.swiqi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.swiqi@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx318.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx334.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx362.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx376.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx386.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx476.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx481.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx481.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx519.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx563.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx563.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx576.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx577.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_6dof.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_eyetrack.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov6211.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov9282.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10_front.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13855.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13880.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov7251.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2l7.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2x5sp.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3p9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3p9.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k5e9yu05.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.liteon_imx362.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.liteon_imx362.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx563.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.pmd_irs2381c.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.pmd_irs2381c.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_imx481.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_imx586.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx519.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.sensormodule.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.truly_imx476.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.liteon_imx362.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.liteon_imx362.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_imx563.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_imx563.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.semco_imx481.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx481.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.semco_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_imx586.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.semco_s5k3m5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.semco_s5k3m5.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx519.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9yu05.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5k5e9yu05.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx476.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx476.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/com.sony.sensormodule.rose_s5k4h7.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.sony.sensormodule.rose_s5k4h7.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.eisv3.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.addconstant.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.addconstant.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.hvx.binning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.hvx.binning.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.customhwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.customhwnode.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.depth.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummyrtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummyrtb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.dummysat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.dummysat.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.eisv3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.eisv3.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.fcv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.fcv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.gpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.gpu.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.memcpy.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.remosaic.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.stich.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.stich.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.node.swregistration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.node.swregistration.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aec.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.aecwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.aecwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.af.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afd.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.afwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.afwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.asd.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.awbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.awbwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.haf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.haf.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.hafoverride.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.hafoverride.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlib.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibsony.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibsony.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.pdlibwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qti.stats.tracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.stats.tracker.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.aec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.aec.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/components/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_bokeh_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_bokeh_comp_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_ckb_service_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_ckb_service_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_color_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_color_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_debug_display_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_debug_display_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_depth_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_depth_comp_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_draw_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_draw_comp_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_exposure_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_exposure_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_eye_stabilizer_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_eye_stabilizer_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_face_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_face_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_flicker_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_flicker_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_food_comp_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_food_comp_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_food_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_food_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_hal_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_hal_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_hdr_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_hdr_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_idt_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_idt_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_image_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_image_conv_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_iq_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_iq_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_jpeg_enc_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_jpeg_enc_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_lens_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_lens_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_main_subject_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_main_subject_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_motion_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_motion_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_motion_estimation_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_motion_estimation_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_object_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_object_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_object_tracker_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_object_tracker_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_prc_image_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_prc_image_conv_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_raw_conv_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_raw_conv_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_raw_dump_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_raw_dump_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_raw_proc_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_raw_proc_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_req_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_req_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_scene_detector_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_scene_detector_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_snapshot_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_snapshot_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_splitter_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_splitter_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/camera/libexcal_stream_ctrl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/libexcal_stream_ctrl_plugin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.anchorsync.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.anchorsync.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.demux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.demux.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.frameselect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.frameselect.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.fusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.fusion.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.generic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.generic.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.gs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.gs.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.hdr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.memcpy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.memcpy.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.mfsr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.qcfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.qcfa.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.rawhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rawhdr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.rt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.rt.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.serializer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.serializer.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.stub.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qti.feature2.swmf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qti.feature2.swmf.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
@@ -968,6 +1210,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.1-impl-qti.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.somc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@4.0-impl.so \
@@ -1029,6 +1273,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libSForceVSE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSForceVSE.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libSNPE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSNPE.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
@@ -1039,6 +1284,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_bokeh_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_bokeh_adapter.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_image.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_dualcam_refocus_video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_dualcam_refocus_video.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_hdr_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_hdr_adapter.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_high_dynamic_range.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libarcsoft_low_light_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_hdr.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
@@ -1049,20 +1300,41 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti_2_1.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcacertclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcacertclient.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamerapostproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamerapostproc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcammw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcammw.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcammw_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcammw_util.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxexternalformatutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxfacialfeatures.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfacialfeatures.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxfdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgo.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxifestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxifestriping.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamximageformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamximageformatutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxncs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxncs.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svacnn.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2svarnn.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapiv2vop.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcpion.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcvp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcvp2_hfi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_hfi.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libcvp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_common.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdataitems.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libdevice_security_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdevice_security_vendor.so \
@@ -1077,6 +1349,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libets_teeclient_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libets_teeclient_v2.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libexcal_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexcal_core.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libexcal_system.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexcal_system.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvdsp_stub.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
@@ -1103,6 +1377,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libidd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidd.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libintegration.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libiu456_datapath_processor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiu456_datapath_processor.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
@@ -1132,9 +1408,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libminkdescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminkdescriptor.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libminksocket.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminksocket.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libmiscta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmiscta.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_faceproc2.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libmmosal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libmmrtpdecoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpdecoder_proprietary.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libmmrtpencoder_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmrtpencoder_proprietary.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libmulawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulawdec.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libnetmgr_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_common.so \
@@ -1142,7 +1421,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libnetmgr_rmnet_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr_rmnet_ext.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libnlnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnlnetmgr.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
@@ -1213,14 +1494,65 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsnpe_dsp_domains_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnpe_dsp_domains_v2.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsnsapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsapi.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsoc_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoc_helper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_alfortlpserv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_alfortlpserv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_angelpie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_angelpie.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_angelpie_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_angelpie_impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_avan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_avan.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_avan_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_avan_impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_buttercake.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_buttercake.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_buttercakersc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_buttercakersc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_camerahal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_camerahal.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_camerapal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_camerapal.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_cheesescone.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_cheesescone.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_cheesesconersc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_cheesesconersc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_chokoballcmn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_chokoballcmn.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_chokoballkeymgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_chokoballkeymgr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_cornfrosty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_cornfrosty.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_donutscmnserv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_donutscmnserv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_facewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_facewrapper.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_flicker.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_formatconverter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_formatconverter.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_formatconverterrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_formatconverterrsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_marble.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_marble.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_marblersc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_marblersc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_milkyrollserv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_milkyrollserv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_parisbrest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_parisbrest.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_parisbrestrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_parisbrestrsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_pdnserv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_pdnserv.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_pretzchoco.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_pretzchoco.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_pretzchocorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_pretzchocorsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_raisin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_raisin.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_raisincl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_raisincl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_raisinclrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_raisinclrsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_raisinrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_raisinrsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sheera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sheera.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sheera_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sheera_impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_shortcake.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_shortcake.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_shortcakersc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_shortcakersc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_soda.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_soda.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_soda_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_soda_impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_spica.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_spica.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_spicarsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_spicarsc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sumomo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sumomo.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_sumomorsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_sumomorsc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_thermal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_thermal.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_yummy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_yummy.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsomc_yummyrsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomc_yummyrsc.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony3daudioeffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony3daudioeffect.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_animaleye.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_animaleye.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_asr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_asr.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_facestab.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_facestab.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_fc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_fc.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_fooddetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_fooddetect.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_naruto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_naruto.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsony_stab.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsony_stab.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsonydseehxwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsonydseehxwrapper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libspcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspcom.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
@@ -1232,10 +1564,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsuntory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuntory.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libswiqisettinghelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswiqisettinghelper.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswvdec.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsymphony-cpu.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsys-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsys-utils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libthermal_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermal_engine.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libtpm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtpm.so \
@@ -1251,6 +1586,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libwvtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvtee.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/local_libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/local_libcamera_metadata.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
@@ -1296,6 +1632,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -1362,8 +1699,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@3.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.latency@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.1.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0-impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.qti.qspmhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qspmhal@1.0.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.semc.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.thermal@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.system.idd@1.0.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.camera.device@3.2-impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.camera.device@3.3-impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.camera.device@3.4-impl.so \
+    vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.camera.device@3.5-impl.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.miscta@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.radio@1.0.so \
     vendor/sony/sm8250-common/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.1.so \
