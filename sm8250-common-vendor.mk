@@ -179,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sm8250-common/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/sony/sm8250-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/sony/sm8250-common/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
-    vendor/sony/sm8250-common/proprietary/vendor/bin/ppd:$(TARGET_COPY_OUT_VENDOR)/bin/ppd \
     vendor/sony/sm8250-common/proprietary/vendor/bin/qmipriod:$(TARGET_COPY_OUT_VENDOR)/bin/qmipriod \
     vendor/sony/sm8250-common/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/sony/sm8250-common/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
